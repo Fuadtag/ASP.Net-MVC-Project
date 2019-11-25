@@ -130,7 +130,25 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Advice.cs" />
+    <Compile Include="Models\Blog.cs" />
+    <Compile Include="Models\BlogReview.cs" />
+    <Compile Include="Models\Candidate.cs" />
+    <Compile Include="Models\Category.cs" />
+    <Compile Include="Models\Client.cs" />
+    <Compile Include="Models\Company.cs" />
+    <Compile Include="Models\CompanyReview.cs" />
+    <Compile Include="Models\Country.cs" />
+    <Compile Include="Models\Education.cs" />
+    <Compile Include="Models\Employee.cs" />
+    <Compile Include="Models\Experience.cs" />
+    <Compile Include="Models\HowItWork.cs" />
+    <Compile Include="Models\Job.cs" />
+    <Compile Include="Models\JobType.cs" />
+    <Compile Include="Models\KeyWord.cs" />
     <Compile Include="Models\Setting.cs" />
+    <Compile Include="Models\SuccessStory.cs" />
+    <Compile Include="Models\Tag.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
