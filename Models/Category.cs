@@ -9,8 +9,11 @@ namespace AspNetFinalProject.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public int MyProperty { get; set; }
-
+        
         public List<Job> Jobs { get; set; }
+
+       
+
+        public string Icon { get; set; }
     }
 }

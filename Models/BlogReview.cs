@@ -12,6 +12,8 @@ namespace AspNetFinalProject.Models
         public Candidate Candidate { get; set; }
         public int EmployeeId { get; set; }
         public Employee Employee { get; set; }
+        public int BlogId { get; set; }
+        public Blog Blog { get; set; }
 
         public string Text { get; set; }
         public DateTime CreatedAt { get; set; }

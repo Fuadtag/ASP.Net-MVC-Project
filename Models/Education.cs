@@ -17,6 +17,9 @@ namespace AspNetFinalProject.Models
         public string Degree { get; set; }
         public string Description { get; set; }
 
+        public int CandidateId { get; set; }
+        public Candidate Candidate { get; set; }
+
 
 
     }

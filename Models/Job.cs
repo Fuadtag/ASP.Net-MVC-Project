@@ -11,37 +11,48 @@ namespace AspNetFinalProject.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public string Title { get; set; }
+        public string TitleText { get; set; }
         public string EmailAdress { get; set; }
         public string WebSite { get; set; }
-        public int JobTypeId { get; set; }
-        public JobType JobType { get; set; }
+        public JobTypes JobType { get; set; }
         public string City { get; set; }
         public int CountryId { get; set; }
         public Country Country { get; set; }
         public decimal MinSalary { get; set; }
         public decimal MaxSalary { get; set; }
+        public Shifts Shift { get; set; }
         public DateTime CreatedAt { get; set; }
         public int CompanyId { get; set; }
         public Company Company { get; set; }
-        public int ExperienceId { get; set; }
-        public Experience Experience { get; set; }
-        public int EducationId { get; set; }
-        public Education Education { get; set; }
-
-        [AllowHtml]
+        public int CategoryId { get; set; }
+        public Category Category { get; set; }
+        public List<string> Qualifications { get; set; }
+        public List<string>  Responsibilities { get; set; }
+        
         public string Description { get; set; }
-
-        public bool Gender { get; set; }
-
-        public string Photo { get; set; }
-
-        [NotMapped]
-        public HttpPostedFile UploadPhoto { get; set; }
-
-        public List<KeyWord> KeyWords { get; set; }
+        public Genders Gender { get; set; }
+        
         public bool IsAcceptedByAdmin { get; set; }
 
-        public string Note { get; set; }
+        
+    }
+
+
+    public enum Genders
+    {
+        Male ,
+        Female 
+    }
+
+    public enum Shifts
+    {
+        Morning ,
+        Evening 
+    }
+
+    public enum JobTypes
+    {
+        FullTime ,
+        PartTime 
     }
 }

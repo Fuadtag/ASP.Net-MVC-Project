@@ -9,8 +9,8 @@ namespace AspNetFinalProject.Models
     {
         public int Id { get; set; }
         public DateTime CreatedAt { get; set; }
-        public int CategoryId { get; set; }
-        public Category Category { get; set; }
+        public int BlogCategoryId { get; set; }
+        public BlogCategory BlogCategory{ get; set; }
 
         public List<BlogReview> BlogReviews { get; set; }
         public string Title { get; set; }
