@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace AspNetFinalProject.Controllers
 {
-    public class PagesController : Controller
+    public class PagesController : BaseController
     {
         // GET: Pages
         public ActionResult AboutUs()

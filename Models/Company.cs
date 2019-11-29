@@ -31,5 +31,11 @@ namespace AspNetFinalProject.Models
 
         public List<string> OpeningHours { get; set; }
 
+        public string FacebookLink { get; set; }
+        public string InstagramLink { get; set; }
+        public string TwitterLink { get; set; }
+        
+
+
     }
 }

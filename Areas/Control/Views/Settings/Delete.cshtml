@@ -1,0 +1,88 @@
+﻿@model AspNetFinalProject.Models.Setting
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Setting</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Phone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Phone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FacebookLink)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FacebookLink)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.InstagramLink)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.InstagramLink)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TwitterLink)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TwitterLink)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GoogleLink)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GoogleLink)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Logo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Logo)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

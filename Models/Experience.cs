@@ -9,9 +9,9 @@ namespace AspNetFinalProject.Models
 {
     public class Experience
     {
-        [Key, ForeignKey("Candidate")]
+        
         public int Id { get; set; }
-        public byte Year { get; set; }
+        public int Year { get; set; }
 
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }

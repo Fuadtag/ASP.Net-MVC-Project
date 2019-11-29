@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
@@ -12,6 +13,7 @@ namespace AspNetFinalProject.Models
         public string Name { get; set; }
         public string Surname { get; set; }
         public string MiddleName { get; set; }
+        
         public DateTime BirthDate { get; set; }
         public Marriages Marriage { get; set; }
         public Genders Gender { get; set; }
@@ -32,7 +34,7 @@ namespace AspNetFinalProject.Models
         [NotMapped]
         public HttpPostedFileBase PhotoUpload { get; set; }
 
-        public List<string> Skills { get; set; }
+        public List<Skill> Skills { get; set; }
 
 
 

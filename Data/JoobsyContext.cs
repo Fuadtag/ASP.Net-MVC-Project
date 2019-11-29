@@ -9,7 +9,7 @@ namespace AspNetFinalProject.Data
 {
     public class JoobsyContext:DbContext
     {
-        public JoobsyContext():base("JoobsyContext")
+        public JoobsyContext():base("JobContext")
         {
 
         }
@@ -32,7 +32,18 @@ namespace AspNetFinalProject.Data
         public DbSet<Setting> Settings { get; set; }
         public DbSet<SuccessStory> SuccessStories { get; set; }
         public DbSet<Tag> Tags { get; set; }
-
         public DbSet<BlogCategory> BlogCategories { get; set; }
+        public DbSet<Skill> Skills { get; set; }
+        public DbSet<Faq> Faqs { get; set; }
+        public DbSet<Pricing> Pricings { get; set; }
+        public DbSet<Service> Services { get; set; }
+        public DbSet<ServiceInfo> ServiceInfos { get; set; }
+        public DbSet<Testimonial> Testimonials { get; set; }
+
+        public DbSet<AboutUs> AboutUs { get; set; }
+
+        public DbSet<TestimonialsPhoto> TestimonialsPhotos { get; set; }
+
+        public DbSet<ServiceInfoPhoto> ServiceInfoPhotos { get; set; }
     }
 }

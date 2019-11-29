@@ -28,7 +28,10 @@ namespace AspNetFinalProject.Models
         public Category Category { get; set; }
         public List<string> Qualifications { get; set; }
         public List<string>  Responsibilities { get; set; }
-        
+        public string Notes { get; set; }
+
+        public string Experience { get; set; }
+
         public string Description { get; set; }
         public Genders Gender { get; set; }
         

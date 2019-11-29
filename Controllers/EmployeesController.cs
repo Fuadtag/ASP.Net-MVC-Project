@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace AspNetFinalProject.Controllers
 {
-    public class EmployeesController : Controller
+    public class EmployeesController : BaseController
     {
         // GET: Employees
         public ActionResult EmployeesList()

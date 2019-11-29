@@ -1,0 +1,162 @@
+﻿@model AspNetFinalProject.Models.Job
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Job</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Category.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Category.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Company.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Company.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Country.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Country.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TitleText)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TitleText)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EmailAdress)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EmailAdress)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.WebSite)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WebSite)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.JobType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.JobType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.City)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.City)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MinSalary)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MinSalary)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MaxSalary)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaxSalary)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Shift)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Shift)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CreatedAt)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreatedAt)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Notes)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Notes)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Experience)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Experience)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Gender)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Gender)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsAcceptedByAdmin)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsAcceptedByAdmin)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

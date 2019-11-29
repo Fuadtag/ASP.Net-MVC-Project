@@ -7,7 +7,7 @@ using System.Web.Mvc;
 
 namespace AspNetFinalProject.Controllers
 {
-    public class LoginController : Controller
+    public class LoginController : BaseController
     {
         // GET: Login
         [HttpGet]

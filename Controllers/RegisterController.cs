@@ -7,7 +7,7 @@ using System.Web.Mvc;
 
 namespace AspNetFinalProject.Controllers
 {
-    public class RegisterController : Controller
+    public class RegisterController : BaseController
     {
         // GET: Register
         [HttpGet]

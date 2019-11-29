@@ -1,0 +1,111 @@
+﻿@model IEnumerable<AspNetFinalProject.Models.Company>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Adress)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CompanyType)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.WebSite)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Phone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IsVerified)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ExperienceYears)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Photo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OverView)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Service)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FacebookLink)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.InstagramLink)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TwitterLink)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Adress)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CompanyType)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.WebSite)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Phone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IsVerified)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ExperienceYears)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Photo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.OverView)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Service)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FacebookLink)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.InstagramLink)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TwitterLink)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace AspNetFinalProject.Controllers
 {
-    public class JobsController : Controller
+    public class JobsController : BaseController
     {
         // GET: Jobs
         public ActionResult Jobs()
