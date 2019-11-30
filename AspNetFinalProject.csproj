@@ -169,6 +169,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\FileManager.cs" />
     <Compile Include="Migrations\201911280743433_Tables.cs" />
     <Compile Include="Migrations\201911280743433_Tables.Designer.cs">
       <DependentUpon>201911280743433_Tables.cs</DependentUpon>
