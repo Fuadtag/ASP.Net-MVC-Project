@@ -45,5 +45,7 @@ namespace AspNetFinalProject.Data
         public DbSet<TestimonialsPhoto> TestimonialsPhotos { get; set; }
 
         public DbSet<ServiceInfoPhoto> ServiceInfoPhotos { get; set; }
+
+        public DbSet<Admin> Admins { get; set; }
     }
 }

@@ -145,6 +145,7 @@
     <Compile Include="Areas\Control\Controllers\HomeController.cs" />
     <Compile Include="Areas\Control\Controllers\HowItWorksController.cs" />
     <Compile Include="Areas\Control\Controllers\JobsController.cs" />
+    <Compile Include="Areas\Control\Controllers\LoginController.cs" />
     <Compile Include="Areas\Control\Controllers\PricingsController.cs" />
     <Compile Include="Areas\Control\Controllers\ServiceInfoesController.cs" />
     <Compile Include="Areas\Control\Controllers\ServiceInfoPhotoesController.cs" />
@@ -210,8 +211,13 @@
     <Compile Include="Migrations\201911281232590_JobTableModified.Designer.cs">
       <DependentUpon>201911281232590_JobTableModified.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201912011342007_AdminModelCreated.cs" />
+    <Compile Include="Migrations\201912011342007_AdminModelCreated.Designer.cs">
+      <DependentUpon>201912011342007_AdminModelCreated.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AboutUs.cs" />
+    <Compile Include="Models\Admin.cs" />
     <Compile Include="Models\Advice.cs" />
     <Compile Include="Models\Blog.cs" />
     <Compile Include="Models\BlogCategory.cs" />
@@ -2278,6 +2284,7 @@
     <Content Include="Areas\Control\Views\TestimonialsPhotoes\Details.cshtml" />
     <Content Include="Areas\Control\Views\TestimonialsPhotoes\Edit.cshtml" />
     <Content Include="Areas\Control\Views\TestimonialsPhotoes\Index.cshtml" />
+    <Content Include="Areas\Control\Views\Login\Index.cshtml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -2417,6 +2424,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201911281232590_JobTableModified.resx">
       <DependentUpon>201911281232590_JobTableModified.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912011342007_AdminModelCreated.resx">
+      <DependentUpon>201912011342007_AdminModelCreated.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
