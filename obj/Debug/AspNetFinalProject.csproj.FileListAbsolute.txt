@@ -167,3 +167,4 @@ C:\Users\USER\Desktop\ASP.Net-MVC-Project\obj\Debug\AspNetFinalProject.Migration
 C:\Users\USER\Desktop\ASP.Net-MVC-Project\obj\Debug\AspNetFinalProject.Migrations.TagTableModified.resources
 C:\Users\USER\Desktop\ASP.Net-MVC-Project\obj\Debug\AspNetFinalProject.Migrations.JobTableModified.resources
 C:\Users\USER\Desktop\ASP.Net-MVC-Project\obj\Debug\AspNetFinalProject.Migrations.AdminModelCreated.resources
+C:\Users\USER\Desktop\ASP.Net-MVC-Project\obj\Debug\AspNetFinalProject.Migrations.AttributesAdded.resources

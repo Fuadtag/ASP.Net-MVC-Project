@@ -656,23 +656,23 @@ namespace AspNetFinalProject.Migrations
 
                 );
 
-            context.Tags.AddOrUpdate(t => t.Text,
-                new Tag()
-                {
-                 BlogId = 12,
-                  Text = "Tag1"
-                },
-                new Tag()
-                {
-                    BlogId = 12,
-                    Text = "Tag1"
-                },
-                new Tag()
-                {
-                    BlogId = 12,
-                    Text = "Tag1"
-                }
-                );
+            //context.Tags.AddOrUpdate(t => t.Text,
+            //    new Tag()
+            //    {
+            //     BlogId = 12,
+            //      Text = "Tag1"
+            //    },
+            //    new Tag()
+            //    {
+            //        BlogId = 12,
+            //        Text = "Tag1"
+            //    },
+            //    new Tag()
+            //    {
+            //        BlogId = 12,
+            //        Text = "Tag1"
+            //    }
+            //    );
 
 
             

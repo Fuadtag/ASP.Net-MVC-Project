@@ -215,6 +215,10 @@
     <Compile Include="Migrations\201912011342007_AdminModelCreated.Designer.cs">
       <DependentUpon>201912011342007_AdminModelCreated.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201912011903103_AttributesAdded.cs" />
+    <Compile Include="Migrations\201912011903103_AttributesAdded.Designer.cs">
+      <DependentUpon>201912011903103_AttributesAdded.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AboutUs.cs" />
     <Compile Include="Models\Admin.cs" />
@@ -2427,6 +2431,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201912011342007_AdminModelCreated.resx">
       <DependentUpon>201912011342007_AdminModelCreated.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912011903103_AttributesAdded.resx">
+      <DependentUpon>201912011903103_AttributesAdded.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
